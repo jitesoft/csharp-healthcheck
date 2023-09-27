@@ -5,11 +5,15 @@
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Jitesoft.Lib.Health</RootNamespace>
+        
+        <Company>Jitesoft AB</Company>
+        <Authors>Johannes Tegnér</Authors>
+        <Description>Health check service running a kestrel webserver as a IHostedService</Description>
+        <RepositoryUrl>https://github.com/jitesoft/csharp-healthcheck</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
         <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
-    
 </Project>
