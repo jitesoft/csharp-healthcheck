@@ -1,15 +1,22 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
+        <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
         <ImplicitUsings>disable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>Jitesoft.Lib.Health</RootNamespace>
-        
         <Company>Jitesoft AB</Company>
         <Authors>Johannes Tegnér</Authors>
         <Description>Health check service running a kestrel webserver as a IHostedService</Description>
+        <PackageProjectUrl>https://github.com/jitesoft/csharp-healthcheck</PackageProjectUrl>
         <RepositoryUrl>https://github.com/jitesoft/csharp-healthcheck</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicense>https://github.com/jitesoft/csharp-healthcheck/blob/master/LICENSE</PackageLicense>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Copyright>(C) Jitesoft AB</Copyright>
+        <Title>Jitesoft.Lib.Health</Title>
+        <PackageReadmeFile>README.md</PackageReadmeFile>     
+        <LangVersion>11</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
