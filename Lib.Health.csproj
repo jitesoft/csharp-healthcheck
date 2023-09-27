@@ -13,6 +13,7 @@
         <RepositoryType>git</RepositoryType>
         <PackageLicense>https://github.com/jitesoft/csharp-healthcheck/blob/master/LICENSE</PackageLicense>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <AssemblyName>Jitesoft.Lib.Health</AssemblyName>
         <Copyright>(C) Jitesoft AB</Copyright>
         <Title>Jitesoft.Lib.Health</Title>
         <LangVersion>11</LangVersion>
